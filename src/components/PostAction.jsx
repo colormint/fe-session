@@ -12,10 +12,12 @@ function PostAction({ editingPost, onSuccess, onCancelEdit }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!title.trim() || !author.trim() || !content.trim()) {
-      alert('모든 필드를 입력해주세요.');
+    if (!title.trim() || !content.trim()) {
+      alert('제목과 내용을 입력해주세요.');
       return;
     }
+
+    const submitAuthor = author.trim() || '익명';
 
     try {
       setIsSubmitting(true);
@@ -24,19 +26,24 @@ function PostAction({ editingPost, onSuccess, onCancelEdit }) {
         // Update existing post (PATCH)
         await updatePost(editingPost.id, {
           title: title.trim(),
-          author: author.trim(),
+          author: submitAuthor,
           content: content.trim(),
         });
       } else {
         // Create new post (POST)
         const newPost = {
           title: title.trim(),
-          author: author.trim(),
+          author: submitAuthor,
           content: content.trim(),
           createdAt: new Date().toISOString().slice(0, 10),
         };
         await createPost(newPost);
       }
+
+      // Clear input fields
+      setTitle('');
+      setAuthor('');
+      setContent('');
 
       if (onSuccess) {
         onSuccess();
