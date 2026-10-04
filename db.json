@@ -13,6 +13,34 @@
       "content": "안녕하세요",
       "createdAt": "2026-10-04",
       "id": "kSWkKcUEcoQ"
+    },
+    {
+      "title": "셋째",
+      "author": "감자",
+      "content": "안녕하세요!!",
+      "createdAt": "2026-10-04",
+      "id": "N8jxCLeTIM8"
+    },
+    {
+      "title": "넷째",
+      "author": "키위",
+      "content": "안녕하세요...?",
+      "createdAt": "2026-10-04",
+      "id": "Zp9sUE5lUUs"
+    },
+    {
+      "title": "다섯째",
+      "author": "멜론",
+      "content": "안녕하세요.!",
+      "createdAt": "2026-10-04",
+      "id": "JzJKGXq7vFw"
+    },
+    {
+      "title": "여섯째",
+      "author": "패션후르츠",
+      "content": "안녕하세요~",
+      "createdAt": "2026-10-04",
+      "id": "YVNJ_HgaSvM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
