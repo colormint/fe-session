@@ -1,47 +1,145 @@
 {
-  "posts": [
-    {
-      "id": "1",
-      "title": "첫 글",
-      "content": "안녕하세요!",
-      "author": "도윤",
-      "createdAt": "2026-09-22"
-    },
-    {
-      "title": "두 번째 글",
-      "author": "사과",
-      "content": "안녕하세요",
-      "createdAt": "2026-10-04",
-      "id": "kSWkKcUEcoQ"
-    },
-    {
-      "title": "셋째",
-      "author": "감자",
-      "content": "안녕하세요!!",
-      "createdAt": "2026-10-04",
-      "id": "N8jxCLeTIM8"
-    },
-    {
-      "title": "넷째",
-      "author": "키위",
-      "content": "안녕하세요...?",
-      "createdAt": "2026-10-04",
-      "id": "Zp9sUE5lUUs"
-    },
-    {
-      "title": "다섯째",
-      "author": "멜론",
-      "content": "안녕하세요.!",
-      "createdAt": "2026-10-04",
-      "id": "JzJKGXq7vFw"
-    },
-    {
-      "title": "여섯째",
-      "author": "패션후르츠",
-      "content": "안녕하세요~",
-      "createdAt": "2026-10-04",
-      "id": "YVNJ_HgaSvM"
-    }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+    "posts": [
+        {
+            "id": "1",
+            "title": "첫 글",
+            "content": "안녕하세요!",
+            "author": "도윤",
+            "createdAt": "2026-10-01"
+        },
+        {
+            "title": "두 번째 글",
+            "author": "사과",
+            "content": "안녕하세요",
+            "createdAt": "2026-10-02",
+            "id": "kSWkKcUEcoQ"
+        },
+        {
+            "title": "셋째",
+            "author": "감자",
+            "content": "안녕하세요!!",
+            "createdAt": "2026-10-03",
+            "id": "N8jxCLeTIM8"
+        },
+        {
+            "title": "넷째",
+            "author": "키위",
+            "content": "안녕하세요...?",
+            "createdAt": "2026-10-04",
+            "id": "Zp9sUE5lUUs"
+        },
+        {
+            "title": "다섯째",
+            "author": "멜론",
+            "content": "안녕하세요.!",
+            "createdAt": "2026-10-05",
+            "id": "JzJKGXq7vFw"
+        },
+        {
+            "title": "여섯째",
+            "author": "패션후르츠",
+            "content": "안녕하세요~",
+            "createdAt": "2026-10-06",
+            "id": "YVNJ_HgaSvM"
+        },
+        {
+            "title": "일곱째",
+            "author": "바나나",
+            "content": "노란 바나나입니다. 다들 반갑습니다! 🍌",
+            "createdAt": "2026-10-07",
+            "id": "bnn_07"
+        },
+        {
+            "title": "여덟째 글",
+            "author": "딸기",
+            "content": "달콤한 딸기의 계절이 오고 있네요 🍓",
+            "createdAt": "2026-10-08",
+            "id": "str_08"
+        },
+        {
+            "title": "아홉 번째 이야기",
+            "author": "포도",
+            "content": "보라색 포도 좋아하시는 분 계신가요? 🍇",
+            "createdAt": "2026-10-09",
+            "id": "grp_09"
+        },
+        {
+            "title": "열 번째 게시글 달성!",
+            "author": "오렌지",
+            "content": "벌써 열 번째 글이네요! 1페이지 마지막 글입니다 🍊",
+            "createdAt": "2026-10-10",
+            "id": "org_10"
+        },
+        {
+            "title": "열한 번째 글 (2페이지)",
+            "author": "복숭아",
+            "content": "2페이지 첫 글이 잘 나오나요? 복숭아입니다 🍑",
+            "createdAt": "2026-10-11",
+            "id": "pch_11"
+        },
+        {
+            "title": "열두 번째",
+            "author": "망고",
+            "content": "망고 빙수가 먹고 싶은 밤이네요 🥭",
+            "createdAt": "2026-10-12",
+            "id": "mng_12"
+        },
+        {
+            "title": "열셋",
+            "author": "수박",
+            "content": "여름엔 역시 시원한 수박이죠 🍉",
+            "createdAt": "2026-10-13",
+            "id": "wtm_13"
+        },
+        {
+            "title": "열넷째 글",
+            "author": "파인애플",
+            "content": "상큼한 파인애플 피자 호불호 조사합니다! 🍍",
+            "createdAt": "2026-10-14",
+            "id": "pnp_14"
+        },
+        {
+            "title": "열다섯 번째",
+            "author": "블루베리",
+            "content": "눈 건강에 좋은 블루베리 챙겨드세요 🫐",
+            "createdAt": "2026-10-15",
+            "id": "blb_15"
+        },
+        {
+            "title": "열여섯 번째 글",
+            "author": "체리",
+            "content": "빨간 체리처럼 활기찬 하루 되세요 🍒",
+            "createdAt": "2026-10-16",
+            "id": "chr_16"
+        },
+        {
+            "title": "열일곱 번째 이야기",
+            "author": "아보카도",
+            "content": "아보카도 샌드위치 레시피 추천받아요 🥑",
+            "createdAt": "2026-10-17",
+            "id": "avc_17"
+        },
+        {
+            "title": "열여덟째",
+            "author": "레몬",
+            "content": "새콤달콤 비타민 충전하고 가세요 🍋",
+            "createdAt": "2026-10-18",
+            "id": "lmn_18"
+        },
+        {
+            "title": "열아홉 번째 글",
+            "author": "토마토",
+            "content": "토마토는 과일일까요 채소일까요? 🍅",
+            "createdAt": "2026-10-19",
+            "id": "tmt_19"
+        },
+        {
+            "title": "스무 번째 축하 글!",
+            "author": "라임",
+            "content": "스무 번째 게시글입니다! 페이지네이션 1, 2페이지 테스트 완료 🎉",
+            "createdAt": "2026-10-20",
+            "id": "lim_20"
+        }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
 }
