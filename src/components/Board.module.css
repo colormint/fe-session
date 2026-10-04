@@ -1,0 +1,158 @@
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 36px 20px;
+}
+
+.header {
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.mainTitle {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #1864ab;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #495057;
+  font-size: 0.95rem;
+}
+
+.errorBanner {
+  background-color: #fff5f5;
+  border: 1px solid #ffc9c9;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  color: #c92a2a;
+  font-size: 0.9rem;
+}
+
+.formCard {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 28px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.formTitle {
+  margin: 0 0 18px 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.titleInput {
+  flex: 2 1 200px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.titleInput:focus,
+.authorInput:focus,
+.contentInput:focus {
+  border-color: #1971c2;
+}
+
+.authorInput {
+  flex: 1 1 120px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.contentInput {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-size: 0.95rem;
+  resize: vertical;
+  outline: none;
+  margin-bottom: 14px;
+  box-sizing: border-box;
+}
+
+.submitBtn {
+  background-color: #1971c2;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submitBtn:hover {
+  background-color: #1864ab;
+}
+
+.submitBtn:disabled {
+  background-color: #adb5bd;
+  cursor: not-allowed;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.listTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #212529;
+  margin: 0;
+}
+
+.countBadge {
+  font-size: 0.88rem;
+  background-color: #e7f5ff;
+  color: #1971c2;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.postList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skeletonCard {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  border: 1px solid #e9ecef;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 48px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px dashed #ced4da;
+  color: #868e96;
+}

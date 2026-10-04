@@ -1,11 +1,19 @@
 {
-    "posts": [
-        {
-            "id": "1",
-            "title": "첫 글",
-            "content": "안녕하세요!",
-            "author": "도윤",
-            "createdAt": "2026-09-22"
-        }
-    ]
+  "posts": [
+    {
+      "id": "1",
+      "title": "첫 글",
+      "content": "안녕하세요!",
+      "author": "도윤",
+      "createdAt": "2026-09-22"
+    },
+    {
+      "title": "두 번째 글",
+      "author": "사과",
+      "content": "안녕하세요",
+      "createdAt": "2026-10-04",
+      "id": "kSWkKcUEcoQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
